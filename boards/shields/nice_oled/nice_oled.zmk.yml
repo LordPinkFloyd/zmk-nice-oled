@@ -1,12 +1,12 @@
-file_format: "1"
+file_format: '1'
 id: nice_oled
 name: nice!oled
 type: shield
-url: https://github.com/mctechnology17/zmk-nice-oled
+url: https://github.com/LordPinkFloyd/zmk-nice-oled
 requires:
-  - i2c_oled
+    - i2c_oled
 features:
-  - display
+    - display
 siblings:
-  - nice_oled
-  - nice_epaper
+    - nice_oled
+    - nice_epaper

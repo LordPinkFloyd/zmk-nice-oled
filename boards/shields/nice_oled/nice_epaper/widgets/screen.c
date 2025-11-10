@@ -65,7 +65,7 @@ static void draw_canvas(lv_obj_t *widget, lv_color_t cbuf[], const struct status
     draw_output_status(canvas, state);
     // TODO: charging animation START
     // change the position
-    draw_wpm_status(canvas, state);
+    // draw_wpm_status(canvas, state);
     draw_battery_status(canvas, state);
     // TODO: charging animation END
     draw_profile_status(canvas, state);

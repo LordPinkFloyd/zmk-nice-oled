@@ -1,5 +1,5 @@
 Changelog file for Structures extra.
-https://github.com/mctechnology17/zmk-nice-oled/blob/main/CHANGELOG.txt
+https://github.com/LordPinkFloyd/zmk-nice-oled/blob/main/CHANGELOG.txt
 
 # FEATURES 0.0.1-beta1 (Mar 24, 2025)
 =======================================
