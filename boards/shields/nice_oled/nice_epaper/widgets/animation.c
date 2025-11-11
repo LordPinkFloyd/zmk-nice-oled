@@ -1,6 +1,7 @@
+#include "animation.h"
+#include "screen_peripheral.h"
 #include <stdlib.h>
 #include <zephyr/kernel.h>
-#include "animation.h"
 
 LV_IMG_DECLARE(crystal_01);
 LV_IMG_DECLARE(crystal_02);
