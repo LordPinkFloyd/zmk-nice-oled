@@ -25,6 +25,12 @@ const lv_img_dsc_t *anim_imgs[] = {
     &crystal_13, &crystal_14, &crystal_15, &crystal_16,
 };
 
+LV_IMG_DECLARE(one_piece);
+
+const lv_img_dsc_t *random_imgs[] = {
+    &one_piece,
+};
+
 void draw_animation(lv_obj_t *canvas, struct zmk_widget_screen *widget) {
 #if IS_ENABLED(CONFIG_NICE_OLED_GEM_ANIMATION)
     lv_obj_t *art = lv_animimg_create(widget->obj);
@@ -37,11 +43,11 @@ void draw_animation(lv_obj_t *canvas, struct zmk_widget_screen *widget) {
 #else
     lv_obj_t *art = lv_img_create(widget->obj);
 
-    int length = sizeof(anim_imgs) / sizeof(anim_imgs[0]);
+    int length = sizeof(random_imgs) / sizeof(random_imgs[0]);
     srand(k_uptime_get_32());
     int random_index = rand() % length;
 
-    lv_img_set_src(art, anim_imgs[random_index]);
+    lv_img_set_src(art, random_imgs[random_index]);
 #endif
 
     lv_obj_align(art, LV_ALIGN_TOP_LEFT, 36, 0);
