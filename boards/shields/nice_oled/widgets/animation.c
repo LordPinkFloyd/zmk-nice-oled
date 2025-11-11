@@ -129,9 +129,9 @@ void draw_animation(lv_obj_t *canvas, struct zmk_widget_screen *widget) {
     /* Finally, we position if there is something in art or art2 */
     if (art) {
 #if IS_ENABLED(CONFIG_NICE_OLED_GEM_ANIMATION)
-        /* coordinate adjustment if it was Gem animation */
-        lv_obj_align(art, LV_ALIGN_TOP_LEFT, 18, -18);
-#elif IS_ENABLED(CONFIG_NICE_OLED_POKEMON_ANIMATION)
+//         /* coordinate adjustment if it was Gem animation */
+//         lv_obj_align(art, LV_ALIGN_TOP_LEFT, 18, -18);
+// #elif IS_ENABLED(CONFIG_NICE_OLED_POKEMON_ANIMATION)
         /* coordinate adjustment if it was the Pokémon animation */
         lv_obj_align(art, LV_ALIGN_TOP_LEFT, -40, -18);
 #else
