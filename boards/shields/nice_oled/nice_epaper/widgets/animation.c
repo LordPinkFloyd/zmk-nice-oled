@@ -26,9 +26,16 @@ const lv_img_dsc_t *anim_imgs[] = {
 };
 
 LV_IMG_DECLARE(one_piece);
+LV_IMG_DECLARE(bomb);
+LV_IMG_DECLARE(bow);
+LV_IMG_DECLARE(cat);
+LV_IMG_DECLARE(magic_sword);
+LV_IMG_DECLARE(potion);
+LV_IMG_DECLARE(rupee);
+LV_IMG_DECLARE(map);
 
 const lv_img_dsc_t *random_imgs[] = {
-    &one_piece,
+    &one_piece, &bomb, &bow, &cat, &magic_sword, &potion, &rupee, &map,
 };
 
 void draw_animation(lv_obj_t *canvas, struct zmk_widget_screen *widget) {
