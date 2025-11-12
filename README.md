@@ -97,6 +97,10 @@ include:
 
 4. Build the firmware, flash it to your keyboard, and enjoy!
 
+# Image converter
+
+To convert a bitmap to a C array, use this tool: https://lvgl.io/tools/imageconverter . Instructions are found here: https://www.reddit.com/r/ErgoMechKeyboards/comments/15t3o6k/custom_art_on_niceview_displays/?share_id=rgH_Be2qhaH8GM2n3kX7x&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1
+
 # Configuration
 
 > [!IMPORTANT]
@@ -177,36 +181,8 @@ for the original design and implementation.
 -   [zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display.git) by @englmaxi
 -   [nice-view-battery](https://github.com/infely/nice-view-battery) by @infely
 
-# If you like my contributions, please don't forget the following:
-
-I appreciate if you follow me on [<img align="center" alt="GitHub" width="22px" src="https://github.com/mctechnology17/mctechnology17/blob/main/src/github.png" />][github] and [<img align="center" alt="YouTube" width="22px" src="https://github.com/mctechnology17/mctechnology17/blob/main/src/youtube.png" />][youtube] !
-
-![Star](./assets/star.GIF)
-
-# My other projects:
-
--   [zmk-dongle-display-view]: Use your [niceview] vertical with very beautiful widgets
--   [zmk-oled-adapter]: This module is an adapter for 128x32, 128x64 and 128x128
-    OLED screens, to be used on keyboards with ZMK without having to modify the
-    shields of the keyboards.
--   [qmk-config] will be updated soon
--   [qmk_userspace] will be updated soon
--   [vimtools] swiss army knife for vim (features and settings that will make your life easier)
--   [gm] cross-platform git manager with friendly user interface
--   [vim-better-header] the best automated template
--   [vim-executor] multilanguage code executor
-
-If you enjoy my contributions, feel free to donate.
-
--   [paypal]
--   [sponsor]
-
 <p align="right">
   <a href="#top">⬆️  back to Table of Contents</a>
-</p>
-
-<p align="center">
-        <img src="./assets/Bottom.svg" alt="Bottom" />
 </p>
 
 [zmk-config]: https://github.com/mctechnology17/zmk-config
