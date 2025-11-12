@@ -24,7 +24,6 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 #include "profile.h"
 #include "screen.h"
 #include "wpm.h"
-#include "animation.h"
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
@@ -69,10 +68,6 @@ static void draw_canvas(lv_obj_t *widget, lv_color_t cbuf[], const struct status
     // draw_wpm_status(canvas, state);
     draw_battery_status(canvas, state);
     // TODO: charging animation END
-
-    // add an image
-    draw_animation(canvas, widget);
-
     draw_profile_status(canvas, state);
     draw_layer_status(canvas, state);
 
